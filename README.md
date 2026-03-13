@@ -1,26 +1,28 @@
 # Java Lab Programs
 
 This repository contains Java lab programs organized task-wise.
-Each task includes the **Aim, Code, and Output**.
+Each task includes the **Aim, Code, and Output Screenshot**.
 
 ---
+
+# Task 1
 
 ## Task 1A – Primitive Data Types
 
 **Aim:**
 To write a Java program to demonstrate primitive data types in Java.
 
-**Code:**
-`task-1/task1a.java`
+**Code Link:**
+[View Code](task-1/task1a.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-1/task1a.java
+```
 
 **Output:**
-
-```
-Integer value: 10
-Float value: 5.5
-Character value: A
-Boolean value: true
-```
+![Output](task-1/output-task1a.png)
 
 ---
 
@@ -29,32 +31,38 @@ Boolean value: true
 **Aim:**
 To write a Java program to demonstrate basic input and output operations.
 
-**Code:**
-`task-1/task1b.java`
+**Code Link:**
+[View Code](task-1/task1b.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-1/task1b.java
+```
 
 **Output:**
-
-```
-Enter number: 5
-Number entered: 5
-```
+![Output](task-1/output-task1b.png)
 
 ---
+
+# Task 2
 
 ## Task 2A – Method Overloading
 
 **Aim:**
 To write a Java program to demonstrate method overloading.
 
-**Code:**
-`task-2/task2a.java`
+**Code Link:**
+[View Code](task-2/task2a.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-2/task2a.java
+```
 
 **Output:**
-
-```
-Sum of two numbers: 15
-Sum of three numbers: 30
-```
+![Output](task-2/output-task2a.png)
 
 ---
 
@@ -63,15 +71,17 @@ Sum of three numbers: 30
 **Aim:**
 To write a Java program to demonstrate constructors.
 
-**Code:**
-`task-2/task2b.java`
+**Code Link:**
+[View Code](task-2/task2b.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-2/task2b.java
+```
 
 **Output:**
-
-```
-Student Name: Ravi
-Student Age: 20
-```
+![Output](task-2/output-task2b.png)
 
 ---
 
@@ -80,33 +90,38 @@ Student Age: 20
 **Aim:**
 To write a Java program to demonstrate class and object concepts.
 
-**Code:**
-`task-2/task2c.java`
+**Code Link:**
+[View Code](task-2/task2c.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-2/task2c.java
+```
 
 **Output:**
-
-```
-Student Details
-Name: Ram
-Age: 21
-```
+![Output](task-2/output-task2c.png)
 
 ---
+
+# Task 3
 
 ## Task 3A – Binary Search
 
 **Aim:**
 To write a Java program to implement Binary Search.
 
-**Code:**
-`task-3/task3a.java`
+**Code Link:**
+[View Code](task-3/task3a.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-3/task3a.java
+```
 
 **Output:**
-
-```
-Enter element to search: 25
-Element found at position 4
-```
+![Output](task-3/output-task3a.png)
 
 ---
 
@@ -115,14 +130,17 @@ Element found at position 4
 **Aim:**
 To write a Java program to demonstrate searching an element in an array.
 
-**Code:**
-`task-3/task3b.java`
+**Code Link:**
+[View Code](task-3/task3b.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-3/task3b.java
+```
 
 **Output:**
-
-```
-Element found in the array
-```
+![Output](task-3/output-task3b.png)
 
 ---
 
@@ -131,33 +149,38 @@ Element found in the array
 **Aim:**
 To write a Java program to display student details using classes.
 
-**Code:**
-`task-3/task3c.java`
+**Code Link:**
+[View Code](task-3/task3c.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-3/task3c.java
+```
 
 **Output:**
-
-```
-Student Name: Arun
-Marks: 85
-```
+![Output](task-3/output-task3c.png)
 
 ---
+
+# Task 4
 
 ## Task 4A – Single Inheritance
 
 **Aim:**
 To write a Java program to demonstrate single inheritance.
 
-**Code:**
-`task-4/task4a.java`
+**Code Link:**
+[View Code](task-4/task4a.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-4/task4a.java
+```
 
 **Output:**
-
-```
-Name: Ravi
-Age: 30
-Salary: 25000
-```
+![Output](task-4/output-task4a.png)
 
 ---
 
@@ -166,16 +189,17 @@ Salary: 25000
 **Aim:**
 To write a Java program to demonstrate multilevel inheritance.
 
-**Code:**
-`task-4/task4b.java`
+**Code Link:**
+[View Code](task-4/task4b.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-4/task4b.java
+```
 
 **Output:**
-
-```
-Bicycle Information
-Motorbike Speed: 80
-ElectricBike Battery: 90%
-```
+![Output](task-4/output-task4b.png)
 
 ---
 
@@ -184,32 +208,38 @@ ElectricBike Battery: 90%
 **Aim:**
 To write a Java program to demonstrate abstract classes and methods.
 
-**Code:**
-`task-4/task4c.java`
+**Code Link:**
+[View Code](task-4/task4c.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-4/task4c.java
+```
 
 **Output:**
-
-```
-Area of Rectangle = 50
-Area of Triangle = 25
-```
+![Output](task-4/output-task4c.png)
 
 ---
+
+# Task 5
 
 ## Task 5A – Bubble Sort
 
 **Aim:**
 To write a Java program to implement Bubble Sort.
 
-**Code:**
-`task-5/task5a.java`
+**Code Link:**
+[View Code](task-5/task5a.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-5/task5a.java
+```
 
 **Output:**
-
-```
-Sorted array:
-2 5 8 10 15
-```
+![Output](task-5/output-task5a.png)
 
 ---
 
@@ -218,15 +248,17 @@ Sorted array:
 **Aim:**
 To write a Java program to implement Selection Sort.
 
-**Code:**
-`task-5/task5b.java`
+**Code Link:**
+[View Code](task-5/task5b.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-5/task5b.java
+```
 
 **Output:**
-
-```
-Sorted array:
-1 4 6 9 12
-```
+![Output](task-5/output-task5b.png)
 
 ---
 
@@ -235,48 +267,54 @@ Sorted array:
 **Aim:**
 To write a Java program to demonstrate interfaces.
 
-**Code:**
-`task-5/task5c.java`
+**Code Link:**
+[View Code](task-5/task5c.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-5/task5c.java
+```
 
 **Output:**
-
-```
-Car is running
-Bike is running
-```
+![Output](task-5/output-task5c.png)
 
 ---
 
-## Task 6 – Exception Handling
+# Task 6 – Exception Handling
 
 **Aim:**
 To write a Java program to demonstrate exception handling.
 
-**Code:**
-`task-6/program.java`
+**Code Link:**
+[View Code](task-6/program.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-6/program.java
+```
 
 **Output:**
-
-```
-Exception caught: ArithmeticException
-```
+![Output](task-6/output-task6.png)
 
 ---
 
-## Task 7 – Multithreading
+# Task 7 – Multithreading
 
 **Aim:**
 To write a Java program to demonstrate multithreading.
 
-**Code:**
-`task-7/program.java`
+**Code Link:**
+[View Code](task-7/program.java)
+
+**Code Preview:**
+
+```java
+// See full code in task-7/program.java
+```
 
 **Output:**
-
-```
-Good Morning
-Hello
-Welcome
-```
+![Output](task-7/output-task7.png)
 
 ---
