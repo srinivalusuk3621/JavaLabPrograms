@@ -17,8 +17,8 @@ To write a Java program to demonstrate primitive data types in Java.
 
 **Output:**
 
-
 ![Output](task-1/output-task1a.png)
+
 ---
 
 ## Task 1B – Basic Input and Output
@@ -30,6 +30,8 @@ To write a Java program to demonstrate basic input and output operations.
 [View Code](task-1/task1b.java)
 
 **Output:**
+
+![Output](task-1/output-task1b.png)
 
 ---
 
@@ -45,6 +47,8 @@ To write a Java program to demonstrate method overloading.
 
 **Output:**
 
+![Output](task-2/output-task2a.png)
+
 ---
 
 ## Task 2B – Constructor Example
@@ -57,6 +61,8 @@ To write a Java program to demonstrate constructors.
 
 **Output:**
 
+![Output](task-2/output-task2b.png)
+
 ---
 
 ## Task 2C – Class and Object
@@ -68,6 +74,8 @@ To write a Java program to demonstrate class and object concepts.
 [View Code](task-2/task2c.java)
 
 **Output:**
+
+![Output](task-2/output-task2c.png)
 
 ---
 
@@ -83,6 +91,8 @@ To write a Java program to implement Binary Search.
 
 **Output:**
 
+![Output](task-3/output-task3a.png)
+
 ---
 
 ## Task 3B – Searching in Array
@@ -95,6 +105,8 @@ To write a Java program to demonstrate searching an element in an array.
 
 **Output:**
 
+![Output](task-3/output-task3b.png)
+
 ---
 
 ## Task 3C – Student Record
@@ -106,6 +118,8 @@ To write a Java program to display student details using classes.
 [View Code](task-3/task3c.java)
 
 **Output:**
+
+![Output](task-3/output-task3c.png)
 
 ---
 
@@ -121,6 +135,8 @@ To write a Java program to demonstrate single inheritance.
 
 **Output:**
 
+![Output](task-4/output-task4a.png)
+
 ---
 
 ## Task 4B – Multilevel Inheritance
@@ -133,6 +149,8 @@ To write a Java program to demonstrate multilevel inheritance.
 
 **Output:**
 
+![Output](task-4/output-task4b.png)
+
 ---
 
 ## Task 4C – Abstract Class
@@ -144,6 +162,8 @@ To write a Java program to demonstrate abstract classes and methods.
 [View Code](task-4/task4c.java)
 
 **Output:**
+
+![Output](task-4/output-task4c.png)
 
 ---
 
@@ -159,6 +179,8 @@ To write a Java program to implement Bubble Sort.
 
 **Output:**
 
+![Output](task-5/output-task5a.png)
+
 ---
 
 ## Task 5B – Selection Sort
@@ -170,6 +192,8 @@ To write a Java program to implement Selection Sort.
 [View Code](task-5/task5b.java)
 
 **Output:**
+
+![Output](task-5/output-task5b.png)
 
 ---
 
@@ -183,6 +207,8 @@ To write a Java program to demonstrate interfaces.
 
 **Output:**
 
+![Output](task-5/output-task5c.png)
+
 ---
 
 # Task 6 – Exception Handling
@@ -195,6 +221,8 @@ To write a Java program to demonstrate exception handling.
 
 **Output:**
 
+![Output](task-6/output-task6.png)
+
 ---
 
 # Task 7 – Multithreading
@@ -206,5 +234,7 @@ To write a Java program to demonstrate multithreading.
 [View Code](task-7/program.java)
 
 **Output:**
+
+![Output](task-7/output-task7.png)
 
 ---
