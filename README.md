@@ -5,12 +5,12 @@ Each task includes the **Aim, Code, and Output Screenshot**.
 
 ---
 
-# Task 1
+# Experiment 1
 
-## Task 1A – Primitive Data Types
+## 1A – Default Values of Primitive Data Types
 
 **Aim:**
-To write a Java program to demonstrate primitive data types in Java.
+Write a JAVA program to display default value of all primitive data types in JAVA.
 
 **Code Link:**
 [View Code](task-1/task1a.java)
@@ -21,10 +21,10 @@ To write a Java program to demonstrate primitive data types in Java.
 
 ---
 
-## Task 1B – Basic Input and Output
+## 1B – Roots of Quadratic Equation
 
 **Aim:**
-To write a Java program to demonstrate basic input and output operations.
+Write a JAVA program that displays the roots of a quadratic equation ax²+bx+c=0. Calculate the discriminant D and based on the value of D describe the nature of the roots.
 
 **Code Link:**
 [View Code](task-1/task1b.java)
@@ -35,12 +35,12 @@ To write a Java program to demonstrate basic input and output operations.
 
 ---
 
-# Task 2
+# Experiment 2
 
-## Task 2A – Method Overloading
+## 2A – Class Mechanism in Java
 
 **Aim:**
-To write a Java program to demonstrate method overloading.
+Implement class mechanism in JAVA. Create a class, methods and invoke them inside the main method.
 
 **Code Link:**
 [View Code](task-2/task2a.java)
@@ -51,10 +51,10 @@ To write a Java program to demonstrate method overloading.
 
 ---
 
-## Task 2B – Constructor Example
+## 2B – Method Overloading
 
 **Aim:**
-To write a Java program to demonstrate constructors.
+Write a JAVA program to implement method overloading.
 
 **Code Link:**
 [View Code](task-2/task2b.java)
@@ -65,10 +65,10 @@ To write a Java program to demonstrate constructors.
 
 ---
 
-## Task 2C – Class and Object
+## 2C – Constructor Implementation
 
 **Aim:**
-To write a Java program to demonstrate class and object concepts.
+Write a JAVA program to implement constructor.
 
 **Code Link:**
 [View Code](task-2/task2c.java)
@@ -79,12 +79,12 @@ To write a Java program to demonstrate class and object concepts.
 
 ---
 
-# Task 3
+# Experiment 3
 
-## Task 3A – Binary Search
+## 3A – Constructor Overloading
 
 **Aim:**
-To write a Java program to implement Binary Search.
+Implement constructor overloading in JAVA.
 
 **Code Link:**
 [View Code](task-3/task3a.java)
@@ -95,10 +95,10 @@ To write a Java program to implement Binary Search.
 
 ---
 
-## Task 3B – Searching in Array
+## 3B – Binary Search
 
 **Aim:**
-To write a Java program to demonstrate searching an element in an array.
+Write a JAVA program to search for an element in a given list using binary search mechanism.
 
 **Code Link:**
 [View Code](task-3/task3b.java)
@@ -109,10 +109,10 @@ To write a Java program to demonstrate searching an element in an array.
 
 ---
 
-## Task 3C – Student Record
+## 3C – Bubble Sort
 
 **Aim:**
-To write a Java program to display student details using classes.
+Develop a JAVA program to sort elements in a given list using bubble sort.
 
 **Code Link:**
 [View Code](task-3/task3c.java)
@@ -123,12 +123,12 @@ To write a Java program to display student details using classes.
 
 ---
 
-# Task 4
+# Experiment 4
 
-## Task 4A – Single Inheritance
+## 4A – Single Inheritance
 
 **Aim:**
-To write a Java program to demonstrate single inheritance.
+Write a JAVA program to implement single inheritance.
 
 **Code Link:**
 [View Code](task-4/task4a.java)
@@ -139,10 +139,10 @@ To write a Java program to demonstrate single inheritance.
 
 ---
 
-## Task 4B – Multilevel Inheritance
+## 4B – Multilevel Inheritance
 
 **Aim:**
-To write a Java program to demonstrate multilevel inheritance.
+Write a JAVA program to implement multi-level inheritance.
 
 **Code Link:**
 [View Code](task-4/task4b.java)
@@ -153,10 +153,10 @@ To write a Java program to demonstrate multilevel inheritance.
 
 ---
 
-## Task 4C – Abstract Class
+## 4C – Abstract Class
 
 **Aim:**
-To write a Java program to demonstrate abstract classes and methods.
+Construct an abstract class in JAVA to find areas of different shapes.
 
 **Code Link:**
 [View Code](task-4/task4c.java)
@@ -167,12 +167,12 @@ To write a Java program to demonstrate abstract classes and methods.
 
 ---
 
-# Task 5
+# Experiment 5
 
-## Task 5A – Bubble Sort
+## 5A – Interface Implementation
 
 **Aim:**
-To write a Java program to implement Bubble Sort.
+Write a JAVA program to implement interface and explain what kind of inheritance can be achieved.
 
 **Code Link:**
 [View Code](task-5/task5a.java)
@@ -183,10 +183,10 @@ To write a Java program to implement Bubble Sort.
 
 ---
 
-## Task 5B – Selection Sort
+## 5B – Runtime Polymorphism
 
 **Aim:**
-To write a Java program to implement Selection Sort.
+Write a JAVA program that implements runtime polymorphism.
 
 **Code Link:**
 [View Code](task-5/task5b.java)
@@ -197,10 +197,10 @@ To write a Java program to implement Selection Sort.
 
 ---
 
-## Task 5C – Interface Example
+## 5C – StringBuffer Operations
 
 **Aim:**
-To write a Java program to demonstrate interfaces.
+Write a JAVA program using StringBuffer to delete and remove characters.
 
 **Code Link:**
 [View Code](task-5/task5c.java)
@@ -211,30 +211,90 @@ To write a Java program to demonstrate interfaces.
 
 ---
 
-# Task 6 – Exception Handling
+# Experiment 6
+
+## 6A – Exception Handling Mechanism
 
 **Aim:**
-To write a Java program to demonstrate exception handling.
+Write a JAVA program that describes the exception handling mechanism.
 
 **Code Link:**
-[View Code](task-6/program.java)
+[View Code](task-6/task6a.java)
 
 **Output:**
 
-![Output](task-6/output-task6.png)
+![Output](task-6/output-task6a.png)
 
 ---
 
-# Task 7 – Multithreading
+## 6B – Multiple Catch Clauses
 
 **Aim:**
-To write a Java program to demonstrate multithreading.
+Write a JAVA program illustrating multiple catch clauses.
 
 **Code Link:**
-[View Code](task-7/program.java)
+[View Code](task-6/task6b.java)
 
 **Output:**
 
-![Output](task-7/output-task7.png)
+![Output](task-6/output-task6b.png)
+
+---
+
+## 6C – Built-in Exceptions
+
+**Aim:**
+Write a JAVA program for creation of Java built-in exceptions.
+
+**Code Link:**
+[View Code](task-6/task6c.java)
+
+**Output:**
+
+![Output](task-6/output-task6c.png)
+
+---
+
+# Experiment 7
+
+## 7A – User Defined Exception
+
+**Aim:**
+Write a JAVA program for creation of user defined exception.
+
+**Code Link:**
+[View Code](task-7/task7a.java)
+
+**Output:**
+
+![Output](task-7/output-task7a.png)
+
+---
+
+## 7B – Thread Creation using Thread Class
+
+**Aim:**
+Write a JAVA program that creates threads by extending Thread class.
+
+**Code Link:**
+[View Code](task-7/task7b.java)
+
+**Output:**
+
+![Output](task-7/output-task7b.png)
+
+---
+
+## 7C – Runnable Interface Threads
+
+**Aim:**
+Repeat the thread creation program using Runnable interface.
+
+**Code Link:**
+[View Code](task-7/task7c.java)
+
+**Output:**
+
+![Output](task-7/output-task7c.png)
 
 ---
