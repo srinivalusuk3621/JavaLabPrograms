@@ -15,14 +15,7 @@ To write a Java program to demonstrate primitive data types in Java.
 **Code Link:**
 [View Code](task-1/task1a.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-1/task1a.java
-```
-
 **Output:**
-![Output](task-1/output-task1a.png)
 
 ---
 
@@ -34,14 +27,7 @@ To write a Java program to demonstrate basic input and output operations.
 **Code Link:**
 [View Code](task-1/task1b.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-1/task1b.java
-```
-
 **Output:**
-![Output](task-1/output-task1b.png)
 
 ---
 
@@ -55,14 +41,7 @@ To write a Java program to demonstrate method overloading.
 **Code Link:**
 [View Code](task-2/task2a.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-2/task2a.java
-```
-
 **Output:**
-![Output](task-2/output-task2a.png)
 
 ---
 
@@ -74,14 +53,7 @@ To write a Java program to demonstrate constructors.
 **Code Link:**
 [View Code](task-2/task2b.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-2/task2b.java
-```
-
 **Output:**
-![Output](task-2/output-task2b.png)
 
 ---
 
@@ -93,14 +65,7 @@ To write a Java program to demonstrate class and object concepts.
 **Code Link:**
 [View Code](task-2/task2c.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-2/task2c.java
-```
-
 **Output:**
-![Output](task-2/output-task2c.png)
 
 ---
 
@@ -114,14 +79,7 @@ To write a Java program to implement Binary Search.
 **Code Link:**
 [View Code](task-3/task3a.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-3/task3a.java
-```
-
 **Output:**
-![Output](task-3/output-task3a.png)
 
 ---
 
@@ -133,14 +91,7 @@ To write a Java program to demonstrate searching an element in an array.
 **Code Link:**
 [View Code](task-3/task3b.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-3/task3b.java
-```
-
 **Output:**
-![Output](task-3/output-task3b.png)
 
 ---
 
@@ -152,14 +103,7 @@ To write a Java program to display student details using classes.
 **Code Link:**
 [View Code](task-3/task3c.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-3/task3c.java
-```
-
 **Output:**
-![Output](task-3/output-task3c.png)
 
 ---
 
@@ -173,14 +117,7 @@ To write a Java program to demonstrate single inheritance.
 **Code Link:**
 [View Code](task-4/task4a.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-4/task4a.java
-```
-
 **Output:**
-![Output](task-4/output-task4a.png)
 
 ---
 
@@ -192,14 +129,7 @@ To write a Java program to demonstrate multilevel inheritance.
 **Code Link:**
 [View Code](task-4/task4b.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-4/task4b.java
-```
-
 **Output:**
-![Output](task-4/output-task4b.png)
 
 ---
 
@@ -211,14 +141,7 @@ To write a Java program to demonstrate abstract classes and methods.
 **Code Link:**
 [View Code](task-4/task4c.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-4/task4c.java
-```
-
 **Output:**
-![Output](task-4/output-task4c.png)
 
 ---
 
@@ -232,14 +155,7 @@ To write a Java program to implement Bubble Sort.
 **Code Link:**
 [View Code](task-5/task5a.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-5/task5a.java
-```
-
 **Output:**
-![Output](task-5/output-task5a.png)
 
 ---
 
@@ -251,14 +167,7 @@ To write a Java program to implement Selection Sort.
 **Code Link:**
 [View Code](task-5/task5b.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-5/task5b.java
-```
-
 **Output:**
-![Output](task-5/output-task5b.png)
 
 ---
 
@@ -270,14 +179,7 @@ To write a Java program to demonstrate interfaces.
 **Code Link:**
 [View Code](task-5/task5c.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-5/task5c.java
-```
-
 **Output:**
-![Output](task-5/output-task5c.png)
 
 ---
 
@@ -289,14 +191,7 @@ To write a Java program to demonstrate exception handling.
 **Code Link:**
 [View Code](task-6/program.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-6/program.java
-```
-
 **Output:**
-![Output](task-6/output-task6.png)
 
 ---
 
@@ -308,13 +203,6 @@ To write a Java program to demonstrate multithreading.
 **Code Link:**
 [View Code](task-7/program.java)
 
-**Code Preview:**
-
-```java
-// See full code in task-7/program.java
-```
-
 **Output:**
-![Output](task-7/output-task7.png)
 
 ---
