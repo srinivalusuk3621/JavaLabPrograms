@@ -16,6 +16,8 @@ To write a Java program to demonstrate primitive data types in Java.
 [View Code](task-1/task1a.java)
 
 **Output:**
+
+
 ![Output](task-1/output-task1a.png)
 ---
 
