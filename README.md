@@ -298,3 +298,47 @@ Repeat the thread creation program using Runnable interface.
 ![Output](task-7/output-task7c.png)
 
 ---
+# Experiment 8
+
+## 8A – Daemon Threads
+
+**Aim:**
+Write a Java program illustrating daemon threads.
+
+**Code Link:**
+[View Code](task-8/task8a.java)
+
+**Output:**
+
+![Output](task-8/output-task8a.png)
+
+---
+
+## 8B – Producer Consumer Problem
+
+**Aim:**
+Write a Java program that implements the Producer Consumer problem using inter-thread communication.
+
+**Code Link:**
+[View Code](task-8/task8b.java)
+
+**Output:**
+
+![Output](task-8/output-task8b.png)
+
+---
+
+## 8C – User Defined Packages
+
+**Aim:**
+Write a Java program that imports and uses user defined packages.
+
+**Code Link:**
+[View Code](task-8/task8c.java)
+
+**Output:**
+
+![Output](task-8/output-task8c.png)
+
+---
+
