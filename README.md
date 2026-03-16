@@ -599,7 +599,84 @@ Write a JAVA program to implement interface.
 **Code:**
 
 ```java
-// Paste your code from task-5/task5a.java here
+interface Sortable
+{
+    void sort(int arr[]);
+}
+class BubbleSort implements Sortable
+{
+    public void sort(int arr[])
+    {
+        int n = arr.length;
+
+        for(int i=0;i<n-1;i++)
+        {
+            for(int j=0;j<n-i-1;j++)
+            {
+                if(arr[j] > arr[j+1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+    }
+}
+class SelectionSort implements Sortable
+{
+    public void sort(int arr[])
+    {
+        int n = arr.length;
+
+        for(int i=0;i<n-1;i++)
+        {
+            int min = i;
+
+            for(int j=i+1;j<n;j++)
+            {
+                if(arr[j] < arr[min])
+                {
+                    min = j;
+                }
+            }
+
+            int temp = arr[min];
+            arr[min] = arr[i];
+            arr[i] = temp;
+        }
+    }
+}
+public class  task5a
+{
+    public static void main(String args[])
+    {
+        int arr1[] = {34,12,45,7,19};
+        int arr2[] = {25,10,30,5,15};
+
+        Sortable ref;
+
+        ref = new BubbleSort();
+        ref.sort(arr1);
+
+        System.out.println("Array sorted using BubbleSort");
+        for(int i=0;i<arr1.length;i++)
+        {
+            System.out.print(arr1[i] + " ");
+        }
+
+        System.out.println();
+
+        ref = new SelectionSort();
+        ref.sort(arr2);
+
+        System.out.println("Array sorted using SelectionSort");
+        for(int i=0;i<arr2.length;i++)
+        {
+            System.out.print(arr2[i] + " ");
+        }
+    }
+}
 ```
 
 **Output:**
@@ -616,7 +693,44 @@ Write a JAVA program that implements runtime polymorphism.
 **Code:**
 
 ```java
-// Paste your code from task-5/task5b.java here
+class Vehicle
+{
+    void run()
+    {
+        System.out.println("Vehicle is running");
+    }
+}
+class Car extends Vehicle
+{
+    void run()
+    {
+        System.out.println("Car is running on four wheels");
+    }
+}
+class Bike extends Vehicle
+{
+    void run()
+    {
+        System.out.println("Bike is running on two wheels");
+    }
+}
+public class  task5b
+{
+    public static void main(String args[])
+    {
+        Vehicle v;
+
+        v = new Car();
+        v.run();
+
+        v = new Bike();
+        v.run();
+
+        v = new Vehicle();
+        v.run();
+    }
+}
+
 ```
 
 **Output:**
@@ -633,8 +747,22 @@ Write a JAVA program using StringBuffer to delete and remove characters.
 **Code:**
 
 ```java
-// Paste your code from task-5/task5c.java here
-```
+public class  task5c
+{
+    public static void main(String args[])
+    {
+
+        StringBuffer sb = new StringBuffer("Java Programming");
+
+        System.out.println("Original StringBuffer: " + sb);
+
+        sb.deleteCharAt(4);
+        System.out.println("After deleting character at index 4: " + sb);
+
+        sb.delete(0, 4);
+        System.out.println("After deleting characters from index 0 to 4: " + sb);
+    }
+}
 
 **Output:**
 
@@ -652,7 +780,39 @@ Write a JAVA program that describes exception handling mechanism.
 **Code:**
 
 ```java
-// Paste your code from task-6/task6a.java here
+import java.util.Scanner;
+
+class  task6a
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter size of array: ");
+        int n = sc.nextInt();
+
+        int arr[] = new int[n];
+
+        System.out.println("Enter " + n + " elements:");
+        for(int i = 0; i < n; i++)
+        {
+            arr[i] = sc.nextInt();
+        }
+
+        System.out.print("Enter index to access element: ");
+        int index = sc.nextInt();
+
+        try
+        {
+            System.out.println("Element at index " + index + " is: " + arr[index]);
+        }
+        catch(ArrayIndexOutOfBoundsException e)
+        {
+            System.out.println("Invalid index! Please enter index between 0 and " + (n-1));
+        }
+
+        sc.close();
+    }
+}
 ```
 
 **Output:**
@@ -669,7 +829,58 @@ Write a JAVA program illustrating multiple catch clauses.
 **Code:**
 
 ```java
-// Paste your code from task-6/task6b.java here
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+class  task6b
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+
+        int arr[] = {10, 20, 30, 40, 50};
+
+        try
+        {
+            System.out.print("Enter first number: ");
+            int a = sc.nextInt();
+
+            System.out.print("Enter second number: ");
+            int b = sc.nextInt();
+
+            int result = a / b;
+            System.out.println("Result = " + result);
+
+            System.out.print("Enter index to access array element: ");
+            int index = sc.nextInt();
+
+            System.out.println("Element at index = " + arr[index]);
+        }
+
+        catch(ArithmeticException e)
+        {
+            System.out.println("Error: Division by zero is not allowed.");
+        }
+
+        catch(InputMismatchException e)
+        {
+            System.out.println("Error: Please enter numeric values only.");
+        }
+
+        catch(ArrayIndexOutOfBoundsException e)
+        {
+            System.out.println("Error: Invalid array index.");
+        }
+
+        catch(Exception e)
+        {
+            System.out.println("Some other error occurred.");
+        }
+
+        System.out.println("Program continues...");
+        sc.close();
+    }
+}
 ```
 
 **Output:**
@@ -686,7 +897,52 @@ Write a JAVA program for built-in exceptions.
 **Code:**
 
 ```java
-// Paste your code from task-6/task6c.java here
+import java.util.Scanner;
+
+class task6c
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+
+        try
+        {
+            System.out.print("Enter an integer to divide 100: ");
+            int n = sc.nextInt();
+            int result = 100 / n;
+            System.out.println("Result = " + result);
+            int arr[] = new int[3];
+            System.out.println("Accessing element at index 5: " + arr[5]);
+            System.out.print("Enter a number as text: ");
+            String s = sc.next();
+            int num = Integer.parseInt(s);
+            System.out.println("Converted number = " + num);
+        }
+
+        catch(ArithmeticException e)
+        {
+            System.out.println("ArithmeticException: division by zero.");
+        }
+
+        catch(ArrayIndexOutOfBoundsException e)
+        {
+            System.out.println("ArrayIndexOutOfBoundsException: invalid index.");
+        }
+
+        catch(NumberFormatException e)
+        {
+            System.out.println("NumberFormatException: invalid numeric format.");
+        }
+
+        catch(Exception e)
+        {
+            System.out.println("Some other exception occurred.");
+        }
+
+        System.out.println("Program continues...");
+        sc.close();
+    }
+}
 ```
 
 **Output:**
@@ -705,7 +961,55 @@ Write a JAVA program for user defined exception.
 **Code:**
 
 ```java
-// Paste your code from task-7/task7a.java here
+class InvalidCountryException extends Exception
+{
+    InvalidCountryException()
+    {
+        super();
+    }
+
+    InvalidCountryException(String msg)
+    {
+        super(msg);
+    }
+}
+class  task7a
+{
+    void registerUser(String userName, String userCountry) throws InvalidCountryException
+    {
+        if(!userCountry.equals("India"))
+        {
+            throw new InvalidCountryException("User outside India cannot be registered");
+        }
+        else
+        {
+            System.out.println("User registration done successfully");
+        }
+    }
+
+    public static void main(String args[])
+    {
+        task7a ur = new task7a();
+
+        try
+        {
+            ur.registerUser("Ravi", "USA");
+        }
+        catch(InvalidCountryException e)
+        {
+            System.out.println(e.getMessage());
+        }
+
+        try
+        {
+            ur.registerUser("Anita", "India");
+        }
+        catch(InvalidCountryException e)
+        {
+            System.out.println(e.getMessage());
+        }
+    }
+}
 ```
 
 **Output:**
@@ -722,7 +1026,73 @@ Write a JAVA program that creates threads by extending Thread class.
 **Code:**
 
 ```java
-// Paste your code from task-7/task7b.java here
+class GoodMorningThread extends Thread
+{
+    public void run()
+    {
+        try
+        {
+            for(int i = 1; i <= 5; i++)
+            {
+                System.out.println("Good Morning");
+                Thread.sleep(1000);
+            }
+        }
+        catch(InterruptedException e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+class HelloThread extends Thread
+{
+    public void run()
+    {
+        try
+        {
+            for(int i = 1; i <= 5; i++)
+            {
+                System.out.println("Hello");
+                Thread.sleep(2000);
+            }
+        }
+        catch(InterruptedException e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+class WelcomeThread extends Thread
+{
+    public void run()
+    {
+        try
+        {
+            for(int i = 1; i <= 5; i++)
+            {
+                System.out.println("Welcome");
+                Thread.sleep(3000);
+            }
+        }
+        catch(InterruptedException e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+class  task7b
+{
+    public static void main(String args[])
+    {
+        GoodMorningThread t1 = new GoodMorningThread();
+        HelloThread t2 = new HelloThread();
+        WelcomeThread t3 = new WelcomeThread();
+
+        t1.start();
+        t2.start();
+        t3.start();
+    }
+}
 ```
 
 **Output:**
@@ -739,7 +1109,54 @@ Repeat the thread program using Runnable interface.
 **Code:**
 
 ```java
-// Paste your code from task-7/task7c.java here
+class LongRunningTask extends Thread
+{
+    public void run()
+    {
+        try
+        {
+            System.out.println("Long running task started...");
+
+            for(int i = 1; i <= 5; i++)
+            {
+                System.out.println("Working... " + i);
+                Thread.sleep(1000);
+            }
+
+            System.out.println("Long running task completed!");
+        }
+        catch(InterruptedException e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+class  task7c
+{
+    public static void main(String args[])
+    {
+        LongRunningTask task1 = new LongRunningTask();
+
+        System.out.println("Before starting task1: " + task1.isAlive());
+
+        task1.start();
+
+        System.out.println("After starting task1: " + task1.isAlive());
+
+        try
+        {
+            System.out.println("Main thread waiting for task1 to complete using join()...");
+            task1.join();
+        }
+        catch(InterruptedException e)
+        {
+            System.out.println(e);
+        }
+
+        System.out.println("After join(): " + task1.isAlive());
+        System.out.println("Main thread continues after task1 completed");
+    }
+}
 ```
 
 **Output:**
@@ -758,7 +1175,53 @@ Write a JAVA program illustrating daemon threads.
 **Code:**
 
 ```java
-// Paste your code from task-8/task8a.java here
+class DaemonThread extends Thread
+{
+    public void run()
+    {
+        try
+        {
+            while(true)
+            {
+                System.out.println("Daemon thread running");
+                Thread.sleep(500);
+            }
+        }
+        catch(InterruptedException e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+class UserThread extends Thread
+{
+    public void run()
+    {
+        try
+        {
+            for(int i = 1; i <= 5; i++)
+            {
+                System.out.println("User thread iteration: " + i);
+                Thread.sleep(1000);
+            }
+        }
+        catch(InterruptedException e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+class  task8a
+{
+    public static void main(String args[])
+    {
+        UserThread userThread = new UserThread();
+        DaemonThread daemonThread = new DaemonThread();
+        daemonThread.setDaemon(true);
+        userThread.start();
+        daemonThread.start();
+    }
+}
 ```
 
 **Output:**
@@ -775,7 +1238,103 @@ Write a JAVA program implementing Producer Consumer problem using inter-thread c
 **Code:**
 
 ```java
-// Paste your code from task-8/task8b.java here
+class Buffer
+{
+    int buffer[] = new int[5];
+    int count = 0, in = 0, out = 0;
+
+    synchronized void produce(int item) throws InterruptedException
+    {
+        while(count == buffer.length)
+        {
+            wait();
+        }
+
+        buffer[in] = item;
+        in = (in + 1) % buffer.length;
+        count++;
+
+        notify();
+    }
+
+    synchronized int consume() throws InterruptedException
+    {
+        while(count == 0)
+        {
+            wait(); 
+        }
+
+        int item = buffer[out];
+        out = (out + 1) % buffer.length;
+        count--;
+
+        notify(); 
+        return item;
+    }
+}
+class Producer extends Thread
+{
+    Buffer buffer;
+
+    Producer(Buffer buffer)
+    {
+        this.buffer = buffer;
+    }
+
+    public void run()
+    {
+        try
+        {
+            for(int i = 1; i <= 10; i++)
+            {
+                buffer.produce(i);
+                System.out.println("Produced: " + i);
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+class Consumer extends Thread
+{
+    Buffer buffer;
+
+    Consumer(Buffer buffer)
+    {
+        this.buffer = buffer;
+    }
+
+    public void run()
+    {
+        try
+        {
+            for(int i = 1; i <= 10; i++)
+            {
+                int item = buffer.consume();
+                System.out.println("Consumed: " + item);
+            }
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
+    }
+}
+class  task8b
+{
+    public static void main(String args[])
+    {
+        Buffer buffer = new Buffer();
+
+        Producer p = new Producer(buffer);
+        Consumer c = new Consumer(buffer);
+
+        p.start();
+        c.start();
+    }
+}
 ```
 
 **Output:**
@@ -792,7 +1351,52 @@ Write a JAVA program that imports and uses user defined packages.
 **Code:**
 
 ```java
-// Paste your code from task-8/task8c.java here
+package arithmetic;
+
+public class ArithmeticOperations
+{
+    public int addition(int x, int y)
+    {
+        return x + y;
+    }
+
+    public int subtraction(int x, int y)
+    {
+        return x - y;
+    }
+
+    public int multiplication(int x, int y)
+    {
+        return x * y;
+    }
+
+    public int division(int x, int y)
+    {
+        return x / y;
+    }
+}
+import arithmetic.*;
+
+class task8c
+{
+    public static void main(String args[])
+    {
+        ArithmeticOperations ao = new ArithmeticOperations();
+
+        int sum = ao.addition(10,5);
+        System.out.println("Addition: " + sum);
+
+        int diff = ao.subtraction(10,5);
+        System.out.println("Subtraction: " + diff);
+
+        int prod = ao.multiplication(10,5);
+        System.out.println("Multiplication: " + prod);
+
+        int quot = ao.division(10,5);
+        System.out.println("Division: " + quot);
+    }
+}
+
 ```
 
 **Output:**
