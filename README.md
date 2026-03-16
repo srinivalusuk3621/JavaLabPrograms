@@ -223,7 +223,43 @@ Implement constructor overloading in JAVA.
 **Code:**
 
 ```java
-// Paste your code from task-3/task3a.java here
+class student
+{
+    int age;
+    String name;
+    int marks;
+    student(String name)
+    {
+        this.name = name;
+    }
+    student(int age,String name)
+    {
+        this.age = age;
+        this.name = name;
+    }
+    student(int age,String name,int marks)
+    {
+        this.age = age;
+        this.name = name;
+        this.marks = marks;
+    }
+   void display()
+    {
+        System.out.printf("Name : %s\n" ,name);
+        System.out.printf("Age :%d\n" ,age);
+        System.out.printf("Marks :%d\n" ,marks);
+    }
+}
+class task3a{
+           public static void main(String[] args){
+          student s1=new student("sreenu");
+           student s2=new student(18,"sreenu");
+             student s3=new student(18,"sreenu",90);
+         s1.display();
+         s2.display();
+          s3.display();
+}
+}
 ```
 
 **Output:**
@@ -240,7 +276,66 @@ Write a JAVA program to search an element using binary search.
 **Code:**
 
 ```java
-// Paste your code from task-3/task3b.java here
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class  task3b
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+
+        int n;
+        System.out.print("Enter number of elements: ");
+        n = sc.nextInt();
+
+        int arr[] = new int[n];
+
+        System.out.println("Enter elements:");
+        for(int i = 0; i < n; i++)
+        {
+            arr[i] = sc.nextInt();
+        }
+
+        Arrays.sort(arr);
+
+        System.out.print("Enter element to search: ");
+        int key = sc.nextInt();
+
+        int low = 0;
+        int high = n - 1;
+        int mid;
+        int pos = -1;
+
+        while(low <= high)
+        {
+            mid = (low + high) / 2;
+
+            if(arr[mid] == key)
+            {
+                pos = mid + 1;
+                break;
+            }
+            else if(arr[mid] < key)
+            {
+                low = mid + 1;
+            }
+            else
+            {
+                high = mid - 1;
+            }
+        }
+
+        if(pos != -1)
+        {
+            System.out.println("Element " + key + " found at position " + pos);
+        }
+        else
+        {
+            System.out.println("Element " + key + " not found in the list");
+        }
+    }
+}
 ```
 
 **Output:**
@@ -257,7 +352,46 @@ Develop a JAVA program to sort elements using bubble sort.
 **Code:**
 
 ```java
-// Paste your code from task-3/task3c.java here
+import java.util.Scanner;
+
+public class  task3c
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+
+        int n;
+        System.out.print("Enter number of elements: ");
+        n = sc.nextInt();
+
+        int arr[] = new int[n];
+
+        System.out.println("Enter elements:");
+        for(int i=0;i<n;i++)
+        {
+            arr[i] = sc.nextInt();
+        }
+
+        for(int i=0;i<n-1;i++)
+        {
+            for(int j=0;j<n-i-1;j++)
+            {
+                if(arr[j] > arr[j+1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+            }
+        }
+
+        System.out.println("Sorted Array in Ascending Order:");
+        for(int i=0;i<n;i++)
+        {
+            System.out.print(arr[i] + " ");
+        }
+    }
+}
 ```
 
 **Output:**
@@ -276,7 +410,54 @@ Write a JAVA program to implement single inheritance.
 **Code:**
 
 ```java
-// Paste your code from task-4/task4a.java here
+public class Person
+{
+    String name;
+    int age;
+
+    Person(String name, int age)
+    {
+        this.name = name;
+        this.age = age;
+    }
+
+    void displayPersonDetails()
+    {
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+    }
+}
+public class Employee extends Person
+{
+    double annualSalary;
+    int yearOfJoining;
+    String nationalInsuranceNumber;
+
+    Employee(String name, int age, double annualSalary, int yearOfJoining, String nationalInsuranceNumber)
+    {
+        super(name, age);
+        this.annualSalary = annualSalary;
+        this.yearOfJoining = yearOfJoining;
+        this.nationalInsuranceNumber = nationalInsuranceNumber;
+    }
+
+    void displayEmployeeDetails()
+    {
+        displayPersonDetails();
+        System.out.println("Annual Salary: " + annualSalary);
+        System.out.println("Year Of Joining: " + yearOfJoining);
+        System.out.println("National Insurance Number: " + nationalInsuranceNumber);
+    }
+}
+public class  task4a
+{
+    public static void main(String args[])
+    {
+        Employee emp1 = new Employee("srinu", 18, 25000.0, 2020, "NIT2463");
+        emp1.displayEmployeeDetails();
+    }
+}
+
 ```
 
 **Output:**
@@ -293,7 +474,48 @@ Write a JAVA program to implement multilevel inheritance.
 **Code:**
 
 ```java
-// Paste your code from task-4/task4b.java here
+public class Bicycle
+{
+    String pedalType;
+
+    void showBicycleInfo()
+    {
+        System.out.println("This is a bicycle with pedals.");
+    }
+}
+public class Motorbike extends Bicycle
+{
+    int engineCapacity;
+
+    void showMotorbikeInfo()
+    {
+        System.out.println("This motorbike has an engine.");
+    }
+}
+public class ElectricBike extends Motorbike
+{
+    int batteryCapacity;
+
+    void showElectricBikeInfo()
+    {
+        System.out.println("This electric bike has an electric motor and battery.");
+    }
+}
+public class  task4b
+{
+    public static void main(String args[])
+    {
+        ElectricBike eBike = new ElectricBike();
+
+        eBike.pedalType = "Standard";
+        eBike.engineCapacity = 150;
+        eBike.batteryCapacity = 500;
+
+        eBike.showBicycleInfo();
+        eBike.showMotorbikeInfo();
+        eBike.showElectricBikeInfo();
+    }
+}
 ```
 
 **Output:**
@@ -310,7 +532,55 @@ Construct an abstract class to find areas of different shapes.
 **Code:**
 
 ```java
-// Paste your code from task-4/task4c.java here
+abstract class Figure
+{
+    double dim1;
+    double dim2;
+
+    Figure(double a, double b)
+    {
+        dim1 = a;
+        dim2 = b;
+    }
+
+    abstract double area();
+}
+class Rectangle extends Figure
+{
+    Rectangle(double a, double b)
+    {
+        super(a,b);
+    }
+
+    double area()
+    {
+        return dim1 * dim2;
+    }
+}
+class Triangle extends Figure
+{
+    Triangle(double a, double b)
+    {
+        super(a,b);
+    }
+
+    double area()
+    {
+        return 0.5 * dim1 * dim2;
+    }
+}
+public class  task4c
+{
+    public static void main(String args[])
+    {
+        Figure f1 = new Rectangle(10,5);
+        System.out.println("Area of Rectangle = " + f1.area());
+
+        Figure f2 = new Triangle(10,5);
+        System.out.println("Area of Triangle = " + f2.area());
+    }
+}
+
 ```
 
 **Output:**
