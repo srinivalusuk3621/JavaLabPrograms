@@ -1,7 +1,6 @@
 # Java Lab Programs
 
-This repository contains Java lab programs organized task-wise.
-Each task includes the **Aim, Code, and Output Screenshot**.
+This repository contains **Java Lab Experiments** with **Aim, Code, and Output**.
 
 ---
 
@@ -10,10 +9,13 @@ Each task includes the **Aim, Code, and Output Screenshot**.
 ## 1A – Default Values of Primitive Data Types
 
 **Aim:**
-Write a JAVA program to display default value of all primitive data types in JAVA.
+Write a JAVA program to display default value of all primitive data types.
 
-**Code Link:**
-[View Code](task-1/task1a.java)
+**Code:**
+
+```java
+// Paste your code from task-1/task1a.java here
+```
 
 **Output:**
 
@@ -24,10 +26,13 @@ Write a JAVA program to display default value of all primitive data types in JAV
 ## 1B – Roots of Quadratic Equation
 
 **Aim:**
-Write a JAVA program that displays the roots of a quadratic equation ax²+bx+c=0. Calculate the discriminant D and based on the value of D describe the nature of the roots.
+Write a JAVA program that displays the roots of a quadratic equation ax²+bx+c=0.
 
-**Code Link:**
-[View Code](task-1/task1b.java)
+**Code:**
+
+```java
+// Paste your code from task-1/task1b.java here
+```
 
 **Output:**
 
@@ -37,13 +42,16 @@ Write a JAVA program that displays the roots of a quadratic equation ax²+bx+c=0
 
 # Experiment 2
 
-## 2A – Class Mechanism in Java
+## 2A – Class Mechanism
 
 **Aim:**
-Implement class mechanism in JAVA. Create a class, methods and invoke them inside the main method.
+Implement class mechanism in JAVA.
 
-**Code Link:**
-[View Code](task-2/task2a.java)
+**Code:**
+
+```java
+// Paste your code from task-2/task2a.java here
+```
 
 **Output:**
 
@@ -56,8 +64,11 @@ Implement class mechanism in JAVA. Create a class, methods and invoke them insid
 **Aim:**
 Write a JAVA program to implement method overloading.
 
-**Code Link:**
-[View Code](task-2/task2b.java)
+**Code:**
+
+```java
+// Paste your code from task-2/task2b.java here
+```
 
 **Output:**
 
@@ -70,8 +81,11 @@ Write a JAVA program to implement method overloading.
 **Aim:**
 Write a JAVA program to implement constructor.
 
-**Code Link:**
-[View Code](task-2/task2c.java)
+**Code:**
+
+```java
+// Paste your code from task-2/task2c.java here
+```
 
 **Output:**
 
@@ -86,8 +100,11 @@ Write a JAVA program to implement constructor.
 **Aim:**
 Implement constructor overloading in JAVA.
 
-**Code Link:**
-[View Code](task-3/task3a.java)
+**Code:**
+
+```java
+// Paste your code from task-3/task3a.java here
+```
 
 **Output:**
 
@@ -98,10 +115,13 @@ Implement constructor overloading in JAVA.
 ## 3B – Binary Search
 
 **Aim:**
-Write a JAVA program to search for an element in a given list using binary search mechanism.
+Write a JAVA program to search an element using binary search.
 
-**Code Link:**
-[View Code](task-3/task3b.java)
+**Code:**
+
+```java
+// Paste your code from task-3/task3b.java here
+```
 
 **Output:**
 
@@ -112,10 +132,13 @@ Write a JAVA program to search for an element in a given list using binary searc
 ## 3C – Bubble Sort
 
 **Aim:**
-Develop a JAVA program to sort elements in a given list using bubble sort.
+Develop a JAVA program to sort elements using bubble sort.
 
-**Code Link:**
-[View Code](task-3/task3c.java)
+**Code:**
+
+```java
+// Paste your code from task-3/task3c.java here
+```
 
 **Output:**
 
@@ -130,8 +153,11 @@ Develop a JAVA program to sort elements in a given list using bubble sort.
 **Aim:**
 Write a JAVA program to implement single inheritance.
 
-**Code Link:**
-[View Code](task-4/task4a.java)
+**Code:**
+
+```java
+// Paste your code from task-4/task4a.java here
+```
 
 **Output:**
 
@@ -142,10 +168,13 @@ Write a JAVA program to implement single inheritance.
 ## 4B – Multilevel Inheritance
 
 **Aim:**
-Write a JAVA program to implement multi-level inheritance.
+Write a JAVA program to implement multilevel inheritance.
 
-**Code Link:**
-[View Code](task-4/task4b.java)
+**Code:**
+
+```java
+// Paste your code from task-4/task4b.java here
+```
 
 **Output:**
 
@@ -156,10 +185,13 @@ Write a JAVA program to implement multi-level inheritance.
 ## 4C – Abstract Class
 
 **Aim:**
-Construct an abstract class in JAVA to find areas of different shapes.
+Construct an abstract class to find areas of different shapes.
 
-**Code Link:**
-[View Code](task-4/task4c.java)
+**Code:**
+
+```java
+// Paste your code from task-4/task4c.java here
+```
 
 **Output:**
 
@@ -172,10 +204,13 @@ Construct an abstract class in JAVA to find areas of different shapes.
 ## 5A – Interface Implementation
 
 **Aim:**
-Write a JAVA program to implement interface and explain what kind of inheritance can be achieved.
+Write a JAVA program to implement interface.
 
-**Code Link:**
-[View Code](task-5/task5a.java)
+**Code:**
+
+```java
+// Paste your code from task-5/task5a.java here
+```
 
 **Output:**
 
@@ -188,8 +223,11 @@ Write a JAVA program to implement interface and explain what kind of inheritance
 **Aim:**
 Write a JAVA program that implements runtime polymorphism.
 
-**Code Link:**
-[View Code](task-5/task5b.java)
+**Code:**
+
+```java
+// Paste your code from task-5/task5b.java here
+```
 
 **Output:**
 
@@ -202,8 +240,11 @@ Write a JAVA program that implements runtime polymorphism.
 **Aim:**
 Write a JAVA program using StringBuffer to delete and remove characters.
 
-**Code Link:**
-[View Code](task-5/task5c.java)
+**Code:**
+
+```java
+// Paste your code from task-5/task5c.java here
+```
 
 **Output:**
 
@@ -213,13 +254,16 @@ Write a JAVA program using StringBuffer to delete and remove characters.
 
 # Experiment 6
 
-## 6A – Exception Handling Mechanism
+## 6A – Exception Handling
 
 **Aim:**
-Write a JAVA program that describes the exception handling mechanism.
+Write a JAVA program that describes exception handling mechanism.
 
-**Code Link:**
-[View Code](task-6/task6a.java)
+**Code:**
+
+```java
+// Paste your code from task-6/task6a.java here
+```
 
 **Output:**
 
@@ -232,8 +276,11 @@ Write a JAVA program that describes the exception handling mechanism.
 **Aim:**
 Write a JAVA program illustrating multiple catch clauses.
 
-**Code Link:**
-[View Code](task-6/task6b.java)
+**Code:**
+
+```java
+// Paste your code from task-6/task6b.java here
+```
 
 **Output:**
 
@@ -244,10 +291,13 @@ Write a JAVA program illustrating multiple catch clauses.
 ## 6C – Built-in Exceptions
 
 **Aim:**
-Write a JAVA program for creation of Java built-in exceptions.
+Write a JAVA program for built-in exceptions.
 
-**Code Link:**
-[View Code](task-6/task6c.java)
+**Code:**
+
+```java
+// Paste your code from task-6/task6c.java here
+```
 
 **Output:**
 
@@ -260,10 +310,13 @@ Write a JAVA program for creation of Java built-in exceptions.
 ## 7A – User Defined Exception
 
 **Aim:**
-Write a JAVA program for creation of user defined exception.
+Write a JAVA program for user defined exception.
 
-**Code Link:**
-[View Code](task-7/task7a.java)
+**Code:**
+
+```java
+// Paste your code from task-7/task7a.java here
+```
 
 **Output:**
 
@@ -276,8 +329,11 @@ Write a JAVA program for creation of user defined exception.
 **Aim:**
 Write a JAVA program that creates threads by extending Thread class.
 
-**Code Link:**
-[View Code](task-7/task7b.java)
+**Code:**
+
+```java
+// Paste your code from task-7/task7b.java here
+```
 
 **Output:**
 
@@ -288,25 +344,32 @@ Write a JAVA program that creates threads by extending Thread class.
 ## 7C – Runnable Interface Threads
 
 **Aim:**
-Repeat the thread creation program using Runnable interface.
+Repeat the thread program using Runnable interface.
 
-**Code Link:**
-[View Code](task-7/task7c.java)
+**Code:**
+
+```java
+// Paste your code from task-7/task7c.java here
+```
 
 **Output:**
 
 ![Output](task-7/output-task7c.png)
 
 ---
+
 # Experiment 8
 
 ## 8A – Daemon Threads
 
 **Aim:**
-Write a Java program illustrating daemon threads.
+Write a JAVA program illustrating daemon threads.
 
-**Code Link:**
-[View Code](task-8/task8a.java)
+**Code:**
+
+```java
+// Paste your code from task-8/task8a.java here
+```
 
 **Output:**
 
@@ -317,10 +380,13 @@ Write a Java program illustrating daemon threads.
 ## 8B – Producer Consumer Problem
 
 **Aim:**
-Write a Java program that implements the Producer Consumer problem using inter-thread communication.
+Write a JAVA program implementing Producer Consumer problem using inter-thread communication.
 
-**Code Link:**
-[View Code](task-8/task8b.java)
+**Code:**
+
+```java
+// Paste your code from task-8/task8b.java here
+```
 
 **Output:**
 
@@ -331,14 +397,16 @@ Write a Java program that implements the Producer Consumer problem using inter-t
 ## 8C – User Defined Packages
 
 **Aim:**
-Write a Java program that imports and uses user defined packages.
+Write a JAVA program that imports and uses user defined packages.
 
-**Code Link:**
-[View Code](task-8/task8c.java)
+**Code:**
+
+```java
+// Paste your code from task-8/task8c.java here
+```
 
 **Output:**
 
 ![Output](task-8/output-task8c.png)
 
 ---
-
