@@ -56,7 +56,44 @@ Write a JAVA program that displays the roots of a quadratic equation ax²+bx+c=0
 **Code:**
 
 ```java
-// Paste your code from task-1/task1b.java here
+import java.util.Scanner;
+class task1b {
+public static void main (String[]args)
+{
+double a,b,c,d,root1,root2;
+Scanner sc=new Scanner(System.in);
+System.out.println("enter co-efficent of x^2  ");
+a=sc.nextDouble();
+System.out.println("enter co-efficent of x");
+b=sc.nextDouble();
+System.out.println("enter constant value");
+c=sc.nextDouble();
+d=(b*b)-(4*a*c);
+System.out.printf("expression\n%.2fx^2 + %.2fx+%.2f\n",a,b,c);
+if(d>0)
+{
+root1=(-b+Math.sqrt(d))/(2*a);
+root2=(-b-Math.sqrt(d))/(2*a);
+System.out.println("root are real and different");
+System.out.println("root1="+root1);
+System.out.println("root2="+root2);
+}
+else if(d==0)
+{ 
+root1=-b/(2*a);
+System.out.println("roots are real and same");
+System.out.println("roots are "+root1);
+}
+else
+{
+System.out.println("root are imaginarg");
+double real =-b/(2*a);
+double imag=Math.sqrt(-d)/(2*a);
+System.out.println("root1="+real+"+"+imag);
+System.out.println("root2="+real+"-"+imag);
+}
+}
+}
 ```
 
 **Output:**
@@ -75,7 +112,24 @@ Implement class mechanism in JAVA.
 **Code:**
 
 ```java
-// Paste your code from task-2/task2a.java here
+class cseg { 
+void print_msg() {
+System.out.printf("this is cse-g section\n");
+}
+int add(int a,int b)
+{
+  return a+b;
+}
+}
+class task2a 
+{
+public static void main(String[] args)
+{
+   cseg obj=new cseg();
+   obj.print_msg();
+   System.out.printf("sum:%d\n",obj.add(10,20));
+}
+}
 ```
 
 **Output:**
@@ -92,7 +146,26 @@ Write a JAVA program to implement method overloading.
 **Code:**
 
 ```java
-// Paste your code from task-2/task2b.java here
+class overload
+{
+  int add(int a,int b) {
+return a+b;
+}
+int add(int a,int b,int c)
+{
+return a+b+c;
+}
+double add(double a,double b) {
+return a+b;
+}
+}
+class task2b { public static void main(String[] args) {
+overload obj=new overload();
+System.out.printf("results of add of two integer:%d\n",obj.add(10,20));
+System.out.printf("results of add of two double:%.2f\n",obj.add(10.0,20.0));
+System.out.printf("results of add of three integer:%d\n",obj.add(10,20,30));
+}
+}
 ```
 
 **Output:**
@@ -109,7 +182,29 @@ Write a JAVA program to implement constructor.
 **Code:**
 
 ```java
-// Paste your code from task-2/task2c.java here
+class student {
+          String name;
+         int age;
+         double marks;
+         student(int age,String  name,double marks)
+            {
+                 this.name=name;
+                 this.age=age;
+                this.marks=marks;
+
+            }
+    void display() {
+
+        System.out.printf("name:%s\n",name);
+        System.out.printf("age:%d\n",age);
+        System.out.printf("marks:%.2f\n",marks);
+     }
+}
+class task2c { public static void main(String [] args) {
+             student obj=new student(18,"srinu",86.5);
+              obj.display();
+         }
+}
 ```
 
 **Output:**
